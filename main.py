@@ -5,8 +5,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message, InlineQuery, InputTextMessageContent, InlineQueryResultArticle
 
 
-token = '1745424531:AAGwekSDdJmM6CW0VCnQcdCNFVhMYzZANOM'
-weather_api_token = 'fca8e75fc86b4e859e9dba6ccf63cfb3'
+token = 'Type here your telegram token'
+weather_api_token = 'Type here your api weather token'
 bot = Bot(token)
 dispatcher = Dispatcher(bot)
 

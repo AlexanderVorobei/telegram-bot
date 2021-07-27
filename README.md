@@ -1,11 +1,17 @@
-cd ~
-# Создаем виртуальное окружение
-virtualenv env
-# Активируем виртуальное окружение
-source env/scripts/activate
-# Клонируем проект
-git clone https://github.com/AlexanderVorobei/telegram-bot.git
-# Ставим необходимые модули
-pip install -r requirements.txt
-# Запускаем приложение
-python main.py
+# Simple Telegram Bot Example
+## Requirements:
+- [Pyenv](https://github.com/pyenv/pyenv) is recommended
+
+## Setup
+### Use weather site and get api [token](http://api.openweathermap.org)
+### Use [@Bot Father]() in telegram and get api token
+### Use the make commands to run the application
+```
+$ make
+```
+```
+$ make setup
+```
+```
+$ make run
+```

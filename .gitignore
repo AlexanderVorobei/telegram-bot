@@ -1,25 +1,21 @@
+# IDE
 .idea/
-.idea/*
 
-lib/
-lib/*
+# Cache files
+.*cache*
 
-*.py[cod]
-*.pyc
+# Data files
+data/
+.DS_Store
+*.sql
 
-bin/
-bin/*
-
-share/
-share/*
-
-local/
-local/*
-
-include/
-include/*
-
-env/
-venv/
-
+# Python files
+.env*
 __pycache__/
+venv*/
+
+# Local configuration
+local.yaml
+
+# Test files
+.coverage
